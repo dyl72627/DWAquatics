@@ -1,0 +1,158 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWAquatics</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff;
+        }
+															
+															        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #023e8a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1520301255226-bf5f144451c1') no-repeat center/cover;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #0096c7;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0077b6;
+        }
+
+        footer {
+            background-color: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DWAquatics</h1>
+    <p>Your one-stop shop for aquatic plants & fish</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#plants">Plants</a>
+    <a href="#fish">Fish</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Bring Your Aquarium to Life 🌊</h2>
+    <p>Healthy fish and vibrant plants delivered to your door</p>
+</section>
+
+<div class="container" id="plants">
+    <h2>Aquatic Plants</h2>
+    <div class="products">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1611078489935-0cb964de46d6" alt="Plant">
+            <h3>Java Fern</h3>
+            <p>£5.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb" alt="Plant">
+            <h3>Anubias</h3>
+            <p>£6.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="fish">
+    <h2>Fish</h2>
+    <div class="products">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5" alt="Fish">
+            <h3>Betta Fish</h3>
+            <p>£12.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1508182311256-e3fbb7e97f5c" alt="Fish">
+            <h3>Neon Tetra</h3>
+            <p>£2.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@dwaquatics.com</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 DWAquatics. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
